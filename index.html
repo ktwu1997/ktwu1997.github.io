@@ -133,10 +133,29 @@
     .figure,.intro,.tnote{ break-inside:avoid; }
     li{ break-inside:avoid; }
   }
+
+  figure.score{ margin:18px 0 24px; padding:14px; background:var(--card);
+    border:1px solid var(--rule); border-radius:10px; box-shadow:0 2px 8px rgba(120,90,40,.08); }
+  figure.score img{ width:100%; height:auto; display:block; border-radius:6px;
+    background:#fff; padding:8px; border:1px solid #e7d9ba; }
+  figure.score figcaption{ margin-top:10px; font-size:13.5px; color:var(--ink-soft); }
+  .scap-h{ display:block; font-weight:700; color:var(--accent); letter-spacing:.04em; margin-bottom:6px; }
+  ul.scap{ list-style:none; padding-left:0; margin:0; }
+  ul.scap li{ position:relative; padding-left:16px; margin:4px 0; line-height:1.6; }
+  ul.scap li::before{ content:"♪"; position:absolute; left:0; color:var(--accent-2); }
+  ul.scap li b{ color:var(--accent-2); }
+
+  .topnav{display:flex;gap:10px;justify-content:center;margin:0 0 30px;flex-wrap:wrap;}
+  .topnav a{font-size:14px;text-decoration:none;color:var(--accent);background:var(--card);
+    border:1px solid var(--rule);border-radius:22px;padding:7px 20px;font-weight:600;transition:.15s;}
+  .topnav a.active{background:var(--accent);color:#fbf6ea;border-color:var(--accent);}
+  .topnav a:hover{background:var(--paper-deep);}
+  @media print{.topnav{display:none;}}
 </style>
 </head>
 <body>
 <div class="wrap">
+<nav class="topnav"><a class="active" href="index.html">📖 翻譯全文</a><a class="" href="presentation.html">🎤 演講講稿（重點＋逐字稿）</a></nav>
 
   <div class="cover">
     <div class="kicker">小提琴技巧基礎</div>
@@ -163,21 +182,14 @@
 
   <p>演奏三度音程（thirds）時，手型要比平常更倚重第三指與第四指，讓較低的手指（第一、二指）往後伸。如果手型是建立在第一指與第二指上，上方的手指（第三、四指）會比較難搆到音，手也容易變得緊繃（圖 41）。</p>
 
-  <div class="figure">
-    <span class="tag">圖片 Fig. 41</span>
-    <div>兩張左手按弦照片：</div>
-    <ul class="bullets">
-      <li>(a) <span class="src">以第三指為基礎的手型</span>（Hand position based on the third finger）</li>
-      <li>(b) <span class="src">以第一指為基礎的手型</span>（Hand position based on the first finger）</li>
-    </ul>
-  </div>
+  <figure class="score">
+<img src="assets/music/p102_full.png" alt="原書第102頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 102 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>圖片 Fig. 41</b>：兩張左手按弦照片： (a) 以第三指為基礎的手型 （Hand position based on the third finger） (b) 以第一指為基礎的手型 （Hand position based on the first finger）</li><li><b>譜例</b>：練習譜（高音譜號，4/4 拍），標示： 移開第一指（Remove first finger） 、 移開第二指（Remove second finger） ，並標有指法 1、2、3、4 與雙音（double stop）按法。</li></ul></figcaption>
+</figure>
 
   <p>這個練習除了是極佳的三度音程練習之外，也有助於找到整體上更為平衡的手型。請放慢演奏，不必拘泥於任何特定的拍子律動。</p>
 
-  <div class="figure">
-    <span class="tag">譜例</span>
-    <div>練習譜（高音譜號，4/4 拍），標示：<span class="src">移開第一指（Remove first finger）</span>、<span class="src">移開第二指（Remove second finger）</span>，並標有指法 1、2、3、4 與雙音（double stop）按法。</div>
-  </div>
+  
 
   <ol>
     <li>把第三指放到弦上。調整手型以順應第三指，使它保持圓弧而放鬆，不必為了搆到音而往上伸展。<br>保持拇指根部與第一指之間的空間張開。（參見圖 32，第 89 頁。）</li>
@@ -195,10 +207,10 @@
     <li>手較小或中等大小的人也許無法讓第四指保持圓弧，但仍要盡可能保持圓弧。</li>
     <li>保持拇指根部與第一指之間的空間張開。（參見圖 32。）就練習而言，把拇指放得相當靠前，置於兩指之間的中點。</li>
   </ul>
-  <div class="figure">
-    <span class="tag">譜例</span>
-    <div>有指八度練習譜，標示<span class="src">移開第一指</span>、<span class="src">移開第二指</span>，指法 3、4，並標 etc.（依此類推）。</div>
-  </div>
+  <figure class="score">
+<img src="assets/music/p103_full.png" alt="原書第103頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 103 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：有指八度練習譜，標示 移開第一指 、 移開第二指 ，指法 3、4，並標 etc.（依此類推）。</li><li><b>譜例</b>：不用弓（Without the bow） 。各組標示：全音—全音—半音、全音—半音—全音、半音—全音—全音、全全音、半音群（指法 1 2 3 4）。 說明文字： 每一小節內的所有手指要一起放到弦上 。</li></ul></figcaption>
+</figure>
 
   <!-- ============================================================ -->
   <h2 class="sec">手指壓力<span class="en">FINGER PRESSURE</span></h2>
@@ -225,22 +237,16 @@
     <li>把第一指緩慢地往指板按下，過程中其他手指、手或手腕都不要有任何移動。再緩慢地把弦放鬆回到「泛音」的高度。確認按下去的那根手指不會往側面倚靠到相鄰的手指（圖 42b）。每一根手指都這樣做，其餘三指始終輕放在弦上。手指按弦時，拇指幾乎完全不要有任何反應。</li>
   </ol>
   <p>在每一條弦上演奏相同的模式，並使用下方所列的各種「全音—半音」組合。</p>
-  <div class="figure">
-    <span class="tag">譜例</span>
-    <div><span class="src">不用弓（Without the bow）</span>。各組標示：全音—全音—半音、全音—半音—全音、半音—全音—全音、全全音、半音群（指法 1 2 3 4）。<br>說明文字：<span class="src">每一小節內的所有手指要一起放到弦上</span>。</div>
-  </div>
+  
   <div class="footnote">
     <sup>1</sup> 把手型建立在上方手指上，不應與「校準八度兩音的音準」混為一談。如果一個八度不太準，只要把下方那個音奏得比上方的音大聲，聽起來就會比較準。
   </div>
   <div class="pagemark">原書 103　Left Hand</div>
 
-  <div class="figure">
-    <span class="tag">圖片 Fig. 42</span>
-    <ul class="bullets">
-      <li>(a) <span class="src">用第二指演奏時，手指互相擠在一起</span>（錯誤示範：Squeezing the fingers together while playing with the second finger）</li>
-      <li>(b) <span class="src">逐音按弦時，保持手指之間的空間</span>（Keep the space between the fingers while stopping each note one at a time）</li>
-    </ul>
-  </div>
+  <figure class="score">
+<img src="assets/music/p104_full.png" alt="原書第104頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 104 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>圖片 Fig. 42</b>：(a) 用第二指演奏時，手指互相擠在一起 （錯誤示範：Squeezing the fingers together while playing with the second finger） (b) 逐音按弦時，保持手指之間的空間 （Keep the space between the fingers while stopping each note one at a time）</li><li><b>譜例</b>：♩=50，四處皆標 緩慢變換（Slowly change） ，力度 f，指法 0、1、2、3、4。</li><li><b>譜例</b>：♩=50，力度 f，指法 0、1、2、3、4（泛音與實音交替）。</li></ul></figcaption>
+</figure>
 
   <h3 class="sub">最小壓力<span class="en">Minimum pressure</span></h3>
   <p>正確的手指壓力在指板上各處都是一樣的：<em>必要時用力，但盡可能少用力</em>。這是左手技巧中最重要的單一面向之一。當手指輕盈、並對弦的彈性形變保持敏感時，手會獲得極大的輕鬆感。左手感受弦的回彈，右手則感受弓、弓毛與弦的回彈。</p>
@@ -251,10 +257,7 @@
     <li>快速而輕巧地放下手指，然後立刻把弦放鬆回到泛音。</li>
     <li>「緩慢變換（Slowly change）」是指非常緩慢地把手指按下，從泛音變換到實音（stopped note）。換句話說，在演奏泛音的同時，逐漸把手指往下壓，去感受按穩這個音所需的正確壓力。一開始泛音會「破掉（break）」，此時泛音與實音都無法正常發響。接著再多一點點壓力，就能乾淨地按出實音。按到這裡就好，不要再多按。</li>
   </ol>
-  <div class="figure">
-    <span class="tag">譜例</span>
-    <div>♩=50，四處皆標 <span class="src">緩慢變換（Slowly change）</span>，力度 f，指法 0、1、2、3、4。</div>
-  </div>
+  
   <p>全程奏 f，靠近琴橋（near to the bridge）<sup>1</sup>，感受弓沉在弦裡，同時左手與手指感覺輕盈。無論你多快放鬆回到泛音，都要把十六分音符（semiquavers）奏得清楚。</p>
   <p>在空弦時，以及在把弦放鬆到泛音時，要徹底放鬆手指根部關節與拇指。<em>當手指再次回到弦上按音時，要保持那份放鬆。</em></p>
   <p>也在其他弦上演奏，使用對應的泛音。</p>
@@ -263,10 +266,7 @@
   <ul class="bullets">
     <li>快速而輕巧地放下手指以奏出泛音。然後立刻把弦按到剛好足以奏出實音的程度，去感受所需的確切壓力。演奏實音時，手與手指要和演奏泛音時一樣放鬆。</li>
   </ul>
-  <div class="figure">
-    <span class="tag">譜例</span>
-    <div>♩=50，力度 f，指法 0、1、2、3、4（泛音與實音交替）。</div>
-  </div>
+  
   <p>也在其他弦上演奏，使用對應的泛音。</p>
   <div class="footnote">
     <sup>1</sup> 在低把位時，G 弦與 D 弦無法像 A 弦或 E 弦那樣靠近琴橋演奏。參見〈發音點 Soundpoints〉，第 41 頁。
@@ -274,10 +274,10 @@
   <div class="pagemark">原書 104　Left Hand</div>
 
   <h4 class="subsub">練習 2<span class="en">Exercise 2　·　Ex. 146</span></h4>
-  <div class="figure">
-    <span class="tag">譜例</span>
-    <div>力度 ff。五個階段標示：(1) <span class="src">「泛音」高度</span>（Harmonic level）、(2) <span class="src">按四分之一</span>（Quarter press）、(3) <span class="src">按一半</span>（Half press）、(4) <span class="src">按四分之三</span>（Three-quarters press）、(5) <span class="src">正常發響，但弦幾乎沒碰到指板</span>。指法 1 3 2 4。</div>
-  </div>
+  <figure class="score">
+<img src="assets/music/p105_full.png" alt="原書第105頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 105 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：力度 ff。五個階段標示：(1) 「泛音」高度 （Harmonic level）、(2) 按四分之一 （Quarter press）、(3) 按一半 （Half press）、(4) 按四分之三 （Three-quarters press）、(5) 正常發響，但弦幾乎沒碰到指板 。指法 1 3 2 4。</li><li><b>譜例</b>：♪=60，泛音與實音交替的練習譜。</li></ul></figcaption>
+</figure>
   <ol>
     <li>奏 ff，但左手手指只輕觸弦的表面。發出的聲音會沙啞且失真。</li>
     <li>保持弓的重量，再奏一次相同的音，同時把弦往下按到四分之一深。左手與手指保持完全鬆軟（floppy）。</li>
@@ -297,20 +297,17 @@
     <li>用三十二分音符（demisemiquaver）泛音重複。</li>
     <li>不用泛音重複這個序列，但在音與音之間保持相同的放鬆感。</li>
   </ol>
-  <div class="figure">
-    <span class="tag">譜例</span>
-    <div>♪=60，泛音與實音交替的練習譜。</div>
-  </div>
+  
   <p>也在其他弦上演奏，使用對應的泛音。</p>
   <div class="pagemark">原書 105　Left Hand</div>
 
   <!-- ============================================================ -->
   <h3 class="sub">雙音中的手指壓力<span class="en">Finger pressure in double stops　·　Ex. 148</span></h3>
   <p>要讓雙音（double stop）達到與單音相同的音量，弓的重量必須重上許多。<sup>1</sup>但按穩每一條弦所需的手指壓力，和單音時是一樣的。在雙音中手指按得太用力，是造成緊張的常見原因。雖然弓比較重，按弦的手指仍必須保持輕盈。要在雙音中讓手放鬆，請依下列方式練習這些樂段：</p>
-  <div class="figure">
-    <span class="tag">譜例</span>
-    <div>標示五種力度組合：(1) 下方音 ff、上方音不發聲；(2) 下方音不發聲、上方音 ff；(3) 下方音 ff、上方音 p；(4) 下方音 p、上方音 ff；(5) 上下兩音皆 mf。指法 1/3、2/4。</div>
-  </div>
+  <figure class="score">
+<img src="assets/music/p106_full.png" alt="原書第106頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 106 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：標示五種力度組合：(1) 下方音 ff、上方音不發聲；(2) 下方音不發聲、上方音 ff；(3) 下方音 ff、上方音 p；(4) 下方音 p、上方音 ff；(5) 上下兩音皆 mf。指法 1/3、2/4。</li></ul></figcaption>
+</figure>
   <ol>
     <li>兩根手指都放在弦上演奏這段，但只拉下方那條弦。用弓又大聲又沉重地拉，但左手保持非常輕，把弦按到剛好足以讓下方弦發聲即可。手指用得如此之輕，以致於不會讓弦碰到指板。去感受手指與手的輕盈與鬆弛，與弓的沉重形成對比。</li>
     <li>重複，但只拉上方那條弦。</li>
@@ -348,13 +345,10 @@
     <li>再次稍等片刻，然後再次往後拉。重複數次。</li>
   </ol>
   <p>盡可能又快又遠地往後拉——只移動手指，不移動手與拇指——保持手背與前臂成一直線——手指移動時，保持拇指不動且放鬆——保持拇指根部與第一指之間的空間張開。</p>
-  <div class="figure">
-    <span class="tag">圖片 Fig. 43</span>
-    <ul class="bullets">
-      <li>(a) <span class="src">放鬆的手，手指準備好要突然往後拉</span></li>
-      <li>(b) <span class="src">短暫維持這個姿勢</span></li>
-    </ul>
-  </div>
+  <figure class="score">
+<img src="assets/music/p107_full.png" alt="原書第107頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 107 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>圖片 Fig. 43</b>：(a) 放鬆的手，手指準備好要突然往後拉 (b) 短暫維持這個姿勢</li><li><b>譜例</b>：左手撥弦練習譜，指法 2 3 4／1 3 4／1 2 4／1 2 3，標 f 與撥弦記號（＋）。</li></ul></figcaption>
+</figure>
 
   <h4 class="subsub">練習 2<span class="en">Exercise 2　·　Ex. 150</span></h4>
   <ul class="bullets">
@@ -362,10 +356,7 @@
     <li>大聲地撥，<em>盡可能快地</em>從根部關節把手指往後拉。</li>
     <li>以均勻的節奏撥：把手指放到弦上——<b>等</b>——撥——<b>等</b>——放——<b>等</b>——撥——<b>等</b>——放，以此類推。</li>
   </ul>
-  <div class="figure">
-    <span class="tag">譜例</span>
-    <div>左手撥弦練習譜，指法 2 3 4／1 3 4／1 2 4／1 2 3，標 f 與撥弦記號（＋）。</div>
-  </div>
+  
   <div class="pagemark">原書 107　Left Hand</div>
 
   <h4 class="subsub">練習 3<span class="en">Exercise 3　·　Ex. 151（圖 Fig. 44）</span></h4>
@@ -376,14 +367,11 @@
   </ol>
   <p>每一根手指都需要把手擺在略為不同的位置，以便每根手指使用時，其根部關節都能恰好位於小提琴邊緣（rim）的正上方。</p>
   <p>只從根部關節移動每一根手指，保持手掌平貼在小提琴肩部。整隻手完全不應移動，保持放鬆而靜止。</p>
-  <div class="figure">
-    <span class="tag">圖片</span>
-    <div>照片說明：<span class="src">手擺好位置，準備在 E 弦上叩擊第二指</span>。</div>
-  </div>
-  <div class="figure">
-    <span class="tag">譜例</span>
-    <div>標示<span class="src">撥（Pluck）／放（Place）</span>與<span class="src">叩擊（Tapping）</span>段落。</div>
-  </div>
+  <figure class="score">
+<img src="assets/music/p108_full.png" alt="原書第108頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 108 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>圖片</b>：照片說明： 手擺好位置，準備在 E 弦上叩擊第二指 。</li><li><b>譜例</b>：標示 撥（Pluck）／放（Place） 與 叩擊（Tapping） 段落。</li><li><b>圖片</b>：照片說明： 確保只有手指在動 （Making sure only the fingers move）。</li></ul></figcaption>
+</figure>
+  
 
   <h3 class="sub">無聲叩擊<span class="en">Silent tapping</span></h3>
   <p>叩擊練習對左手而言，相當於右手的發音（tone production）練習。在單一音上做的發音練習，排除了演奏的所有其他因素——音準、節奏、協調性等等——讓演奏者得以完全專注在弓對弦所做的事情上。無聲叩擊練習則讓演奏者得以完全專注在手指的動作上。</p>
@@ -400,10 +388,7 @@
   <p>在任何弦的低把位，用第一指的側面輕觸琴頸。</p>
   <h4 class="subsub">拇指<span class="en">Thumb</span></h4>
   <p>保持拇指鬆弛、放鬆且不參與用力。把它放得比平常更靠前（大約對著第二指），使拇指根部與第一指之間有額外的空間。也練習讓拇指完全不碰琴頸，把琴頭（scroll）靠在牆上來支撐。</p>
-  <div class="figure">
-    <span class="tag">圖片</span>
-    <div>照片說明：<span class="src">確保只有手指在動</span>（Making sure only the fingers move）。</div>
-  </div>
+  
   <h4 class="subsub">速度<span class="en">Tempo</span></h4>
   <p>從中等速度開始，♩=60–66，再逐步提升到 80–92。在快速時，讓手指貼近弦。</p>
   <div class="footnote">
@@ -414,16 +399,13 @@
   <h4 class="subsub">練習 1<span class="en">Exercise 1　·　Ex. 152</span></h4>
   <p>（不用弓地叩擊手指）</p>
   <p>把手保持在同一個把位，只改變手指的形狀去搆到不同的音。例如，用「方形手指（square finger）」的第一指叩擊 A♭，感覺上應該和用「伸展手指（extended finger）」叩擊 A♮ 不一樣。<sup>1</sup></p>
-  <div class="figure">
-    <span class="tag">譜例</span>
-    <div>標示<span class="src">方形手指（Square fingers）</span>與<span class="src">伸展手指（Extended fingers）</span>兩段，指法 1 2 3 4，標 simile（依此類推）。</div>
-  </div>
+  <figure class="score">
+<img src="assets/music/p109_full.png" alt="原書第109頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 109 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：標示 方形手指（Square fingers） 與 伸展手指（Extended fingers） 兩段，指法 1 2 3 4，標 simile（依此類推）。</li><li><b>譜例</b>：以 □／◊ 記號標示方形與伸展手型的練習譜。</li></ul></figcaption>
+</figure>
   <h4 class="subsub">練習 2<span class="en">Exercise 2　·　Ex. 153</span></h4>
   <p>□ ＝ 方形手指（Square finger）　　◊ ＝ 伸展手指（Extended finger）</p>
-  <div class="figure">
-    <span class="tag">譜例</span>
-    <div>以 □／◊ 記號標示方形與伸展手型的練習譜。</div>
-  </div>
+  
   <div class="footnote">
     <sup>1</sup> 參見〈方形與伸展 Square and extended〉，第 113 頁。
   </div>
@@ -431,28 +413,37 @@
 
   <h4 class="subsub">練習 3<span class="en">Exercise 3　·　Ex. 154</span></h4>
   <p>把手保持在第一把位，只移動手指去搆到第二把位的音。</p>
-  <div class="figure"><span class="tag">譜例</span><div>指法 1111／2222／3333／4444 的叩擊練習譜。</div></div>
+  <figure class="score">
+<img src="assets/music/p110_full.png" alt="原書第110頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 110 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：指法 1111／2222／3333／4444 的叩擊練習譜。</li><li><b>譜例</b>：指法 1111／2222／3333／4444。</li><li><b>譜例</b>：指法 1111／2222／3333／4444。</li></ul></figcaption>
+</figure>
   <h4 class="subsub">練習 4<span class="en">Exercise 4　·　Ex. 155</span></h4>
   <p>把手保持在第一把位，只移動手指去搆到第二把位的音。</p>
-  <div class="figure"><span class="tag">譜例</span><div>指法 1111／2222／3333／4444。</div></div>
+  
   <p>把手保持在第二把位，只移動手指去搆到第一把位的音。</p>
-  <div class="figure"><span class="tag">譜例</span><div>指法 1111／2222／3333／4444。</div></div>
+  
   <div class="pagemark">原書 110　Left Hand</div>
 
   <h4 class="subsub">練習 5<span class="en">Exercise 5　·　Ex. 156–157</span></h4>
   <p>（不用弓地叩擊手指）</p>
   <p>為了涵蓋不同的音程，使用下列的調號（key signatures）來演奏這個練習：</p>
-  <div class="figure"><span class="tag">譜例</span><div>一連串由升記號到降記號的調號。</div></div>
+  <figure class="score">
+<img src="assets/music/p111_full.png" alt="原書第111頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 111 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：一連串由升記號到降記號的調號。</li><li><b>譜例</b>：三度雙音叩擊練習譜，指法 1/3、2/4 等。</li><li><b>譜例</b>：四度雙音叩擊練習譜，指法 1/2、2/3、3/4 等。</li></ul></figcaption>
+</figure>
   <p><span class="note-term">三度（Thirds）　·　Ex. 156</span></p>
-  <div class="figure"><span class="tag">譜例</span><div>三度雙音叩擊練習譜，指法 1/3、2/4 等。</div></div>
+  
   <p><span class="note-term">四度（Fourths）　·　Ex. 157</span></p>
-  <div class="figure"><span class="tag">譜例</span><div>四度雙音叩擊練習譜，指法 1/2、2/3、3/4 等。</div></div>
+  
   <div class="pagemark">原書 111　Left Hand</div>
 
   <p><span class="note-term">六度（Sixths）　·　Ex. 158</span></p>
-  <div class="figure"><span class="tag">譜例</span><div>六度雙音叩擊練習譜，指法 2/1、3/2、4/3 等。</div></div>
+  <figure class="score">
+<img src="assets/music/p112_full.png" alt="原書第112頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 112 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：六度雙音叩擊練習譜，指法 2/1、3/2、4/3 等。</li><li><b>譜例</b>：八度雙音叩擊練習譜，指法 4/1、3/1、4/2 等。</li></ul></figcaption>
+</figure>
   <p><span class="note-term">八度（Octaves）　·　Ex. 159</span></p>
-  <div class="figure"><span class="tag">譜例</span><div>八度雙音叩擊練習譜，指法 4/1、3/1、4/2 等。</div></div>
+  
   <div class="pagemark">原書 112　Left Hand</div>
 
   <!-- ============================================================ -->
@@ -461,29 +452,17 @@
     □ ＝ 方形手指（Square finger）　　◊ ＝ 伸展手指（Extended finger）<br><br>
     「方形（square）」與「伸展（extended）」這兩個詞，描述的是手指放到弦上時的形狀。<sup>1</sup>圖 46a 顯示方形的形狀（A 弦上第二指的 C♮）。此時指甲關節與中間關節之間的夾角，比手指「伸展」時更接近直角。圖 46b 顯示伸展的形狀（第二指的 C♯）。此時手指從指甲關節到中間關節變得較直（但仍然彎曲）。
   </div>
-  <div class="figure">
-    <span class="tag">圖片 Fig. 46</span>
-    <ul class="bullets">
-      <li>(a) <span class="src">第二指「方形」</span>（Second finger 'square'）</li>
-      <li>(b) <span class="src">第二指「伸展」</span>（Second finger 'extended'）</li>
-    </ul>
-  </div>
+  <figure class="score">
+<img src="assets/music/p113_full.png" alt="原書第113頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 113 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>圖片 Fig. 46</b>：(a) 第二指「方形」 （Second finger &#x27;square&#x27;） (b) 第二指「伸展」 （Second finger &#x27;extended&#x27;）</li><li><b>譜例 範例 1</b>：練習曲 Etude, op. 20, no. 3 — Kayser（凱瑟） 。2/4 拍，標 □／◊ 與指法 0、2、4。</li><li><b>譜例 範例 2</b>：《小夜曲 Eine kleine Nachtmusik》, K525, 第四樂章 — Mozart（莫札特） 。標 □／◊ 與指法 2、3、0。</li><li><b>譜例 範例 3</b>：《Nigun》（《Baal Shem》第 2 首）— Bloch（布洛赫） 。標 sul G、□／◊ 與指法。 版權說明：Copyright © 1940 by Carl Fischer, Inc., New York. 版權續展。國際版權所有，經授權使用。</li></ul></figcaption>
+</figure>
   <p>方形不必是完美的直角——往往可能是 45°——它只是比伸展的形狀更「方」而已。這一點尤其適用於第四指，它從來不會像其他手指那麼方。一根手指是方形還是伸展，取決於把位，以及周圍的音是什麼。</p>
   <p>在範例 1 中，第二指從方形（□）變為伸展（◊），手保持在同一把位。在十六分音符（semiquavers）G–A（第 2 小節）期間，第二指變回方形，為 C♯ 做好準備。</p>
-  <div class="figure">
-    <span class="tag">譜例 範例 1</span>
-    <div><span class="src">練習曲 Etude, op. 20, no. 3 — Kayser（凱瑟）</span>。2/4 拍，標 □／◊ 與指法 0、2、4。</div>
-  </div>
+  
   <p>在範例 2 中，第二指與第三指從方形變為伸展。一個常見的錯誤，是讓手指保持方形，然後把<em>整隻手往上換把</em>半音。這會造成音準問題，因為手已不在任何特定的把位上了。</p>
-  <div class="figure">
-    <span class="tag">譜例 範例 2</span>
-    <div><span class="src">《小夜曲 Eine kleine Nachtmusik》, K525, 第四樂章 — Mozart（莫札特）</span>。標 □／◊ 與指法 2、3、0。</div>
-  </div>
+  
   <p>在範例 3 中，第一指頻繁地在方形與伸展之間變換，手保持在同一把位。如果手「換把」下行到任何一個方形手指上，緊接其後的音很可能會過低（太 flat）。</p>
-  <div class="figure">
-    <span class="tag">譜例 範例 3</span>
-    <div><span class="src">《Nigun》（《Baal Shem》第 2 首）— Bloch（布洛赫）</span>。標 sul G、□／◊ 與指法。<br>版權說明：Copyright © 1940 by Carl Fischer, Inc., New York. 版權續展。國際版權所有，經授權使用。</div>
-  </div>
+  
   <ul class="bullets">
     <li>在接下來的練習中，保持手靜止，只移動手指。根部關節應保持放鬆而柔軟。速度：慢、中、快。</li>
   </ul>
@@ -498,28 +477,37 @@
     <li>保持手靜止，只沿著弦移動手指。（音與音之間不要把手指抬起。）</li>
     <li>在音與音之間放鬆，以盡量減少滑動的聲音。</li>
   </ul>
-  <div class="figure"><span class="tag">譜例</span><div>標 Slow（慢），指法 1111／2222／3333／4444。</div></div>
+  <figure class="score">
+<img src="assets/music/p114_full.png" alt="原書第114頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 114 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：標 Slow（慢），指法 1111／2222／3333／4444。</li><li><b>譜例</b>：♩=60， 紮實的分弓（Solid détaché） ，標 □／◊ 與指法。</li></ul></figcaption>
+</figure>
   <p>在每一條弦上演奏相同的序列。也在每一條弦上高八度演奏。</p>
   <h4 class="subsub">練習 2<span class="en">Exercise 2　·　Ex. 161</span></h4>
   <ul class="bullets">
     <li>第 1–6 小節：保持手靜止，把它擱在演奏第二音與第四音的那根手指上。把另一根手指從方形移到伸展。</li>
     <li>第 7–12 小節：感受手的位置擱在演奏第一音與第三音的那根手指上（把這根手指按住），只移動另一根手指，不移動手。</li>
   </ul>
-  <div class="figure"><span class="tag">譜例</span><div>♩=60，<span class="src">紮實的分弓（Solid détaché）</span>，標 □／◊ 與指法。</div></div>
+  
   <p>在其他弦上演奏相同的序列。</p>
   <div class="pagemark">原書 114　Left Hand</div>
 
   <h4 class="subsub">練習 3<span class="en">Exercise 3　·　Ex. 162</span></h4>
   <p>保持手靜止，只移動手指。</p>
-  <div class="figure"><span class="tag">譜例</span><div>♩=60，<span class="src">跳弓（Spiccato）</span>，標 □／◊ 與指法 1 2 3 4。</div></div>
+  <figure class="score">
+<img src="assets/music/p115_full.png" alt="原書第115頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 115 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：♩=60， 跳弓（Spiccato） ，標 □／◊ 與指法 1 2 3 4。</li><li><b>譜例</b>：連弓音階式練習譜，指法上下行 1→4→1。</li></ul></figcaption>
+</figure>
   <p>在 G–D 弦與 A–E 弦上演奏相同的序列。</p>
   <h4 class="subsub">練習 4<span class="en">Exercise 4　·　Ex. 163</span></h4>
   <p>保持手靜止，只移動手指。</p>
-  <div class="figure"><span class="tag">譜例</span><div>連弓音階式練習譜，指法上下行 1→4→1。</div></div>
+  
   <div class="pagemark">原書 115　Left Hand</div>
 
   <h4 class="subsub">替代練習<span class="en">Alternative</span></h4>
-  <div class="figure"><span class="tag">譜例</span><div>連弓的半音階式練習譜，指法上下行 1→2→3→4→3→2→1。</div></div>
+  <figure class="score">
+<img src="assets/music/p116_full.png" alt="原書第116頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 116 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：連弓的半音階式練習譜，指法上下行 1→2→3→4→3→2→1。</li><li><b>譜例</b>：G 大調小提琴協奏曲 Violin Concerto in G, K216, 第一樂章 — Mozart（莫札特） 。標指法 2、4。</li></ul></figcaption>
+</figure>
   <h4 class="subsub">其他練習<span class="en">Other exercises</span></h4>
   <p>〈手指預備（Finger preparation）〉的練習，對於練習方形與伸展手型也很有用。<sup>1</sup></p>
 
@@ -530,10 +518,7 @@
     舉例來說，在上行音階中，從第四指跨到第一指時，要把第四指按住，直到第一指那個音<em>開始之後</em>才放開。其他手指組合也以相同方式運作。
   </div>
   <p>這與「手指預備」類似<sup>2</sup>，是左手技巧的另一個關鍵要素。要把「將下一根手指放到新弦上」與「再把上一根手指從舊弦上抬起」想成是<em>同一個動作的兩半</em>，而不是同時發生的兩個分開的動作（也就是第一指落下的同時第四指抬起）。</p>
-  <div class="figure">
-    <span class="tag">譜例</span>
-    <div><span class="src">G 大調小提琴協奏曲 Violin Concerto in G, K216, 第一樂章 — Mozart（莫札特）</span>。標指法 2、4。</div>
-  </div>
+  
   <h4 class="subsub">練習 1<span class="en">Exercise 1　·　Ex. 164</span></h4>
   <p>這個練習強制做到提早的手指預備與交疊。在每一次換弦時，換弦<em>之前</em>的手指與換弦<em>之後</em>的手指，要像雙音一樣一起按住。</p>
   <ul class="bullets">
@@ -543,40 +528,43 @@
   <div class="footnote"><sup>1,2</sup> 參見〈手指預備 Finger Preparation〉，第 130 頁。</div>
   <div class="pagemark">原書 116　Left Hand</div>
 
-  <div class="figure">
-    <span class="tag">譜例</span>
-    <div>練習譜標示：<span class="src">恰好在第五拍把按住的手指抬起</span>、<span class="src">恰好在第三拍放下 ×音符</span>，指法 2、3、4。</div>
-  </div>
+  <figure class="score">
+<img src="assets/music/p117_full.png" alt="原書第117頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 117 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：練習譜標示： 恰好在第五拍把按住的手指抬起 、 恰好在第三拍放下 ×音符 ，指法 2、3、4。</li><li><b>譜例</b>：一連串升、降記號調號。</li><li><b>譜例</b>：把交疊處奏成雙音的練習譜。</li><li><b>譜例</b>：連弓快速音群，標第四指按住記號（4——），含 sul G。</li></ul></figcaption>
+</figure>
   <p>用多種調演奏，以涵蓋不同的「全音—半音」可能性：</p>
-  <div class="figure"><span class="tag">譜例</span><div>一連串升、降記號調號。</div></div>
+  
   <h4 class="subsub">替代練習<span class="en">Alternative</span></h4>
   <p>與其無聲地把手指按住，不如把它們當作雙音奏出。如此一來，這個練習聽起來會如下：</p>
-  <div class="figure"><span class="tag">譜例</span><div>把交疊處奏成雙音的練習譜。</div></div>
+  
   <h4 class="subsub">練習 2<span class="en">Exercise 2　·　Ex. 165</span></h4>
   <p>依標示把第四指按住。</p>
-  <div class="figure"><span class="tag">譜例</span><div>連弓快速音群，標第四指按住記號（4——），含 sul G。</div></div>
+  
   <div class="pagemark">原書 117　Left Hand</div>
 
   <h3 class="sub">把第一指按住<span class="en">Holding down the first finger</span></h3>
   <p>在下行音階以及其他音階型的樂段中，如果你在其他手指繼續往下行音階時，把第一指留在弦上幾個音，手（因而還有音準）也許會比較穩定。</p>
-  <div class="figure">
-    <span class="tag">譜例</span>
-    <div><span class="src">G 大調奏鳴曲 Sonata in G, op. 78, 第一樂章 — Brahms（布拉姆斯）</span>。6/8 拍，標第一指與第四指按住記號。</div>
-  </div>
+  <figure class="score">
+<img src="assets/music/p118_full.png" alt="原書第118頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 118 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：G 大調奏鳴曲 Sonata in G, op. 78, 第一樂章 — Brahms（布拉姆斯） 。6/8 拍，標第一指與第四指按住記號。</li><li><b>譜例</b>：標第一指持續按住（1——），含 sul D–G、sul E–A。</li><li><b>譜例</b>：標第一指、第二指按住記號與 * 號的練習譜。</li></ul></figcaption>
+</figure>
   <p>這些練習藉由把手指按住的時間比正常演奏更久，來誇大這種交疊。</p>
   <h4 class="subsub">練習 1<span class="en">Exercise 1　·　Ex. 166</span></h4>
   <p>全程把第一指輕輕按在弦上。</p>
-  <div class="figure"><span class="tag">譜例</span><div>標第一指持續按住（1——），含 sul D–G、sul E–A。</div></div>
+  
   <h4 class="subsub">練習 2<span class="en">Exercise 2　·　Ex. 167</span></h4>
   <ul class="bullets">
     <li>全程把第一指輕輕按在弦上。</li>
     <li>在標 * 處，一邊演奏第四指，一邊用第一指往後伸展，然後讓手隨之跟進新的把位。往後伸展時不要把手腕往外凸。</li>
     <li>在這個練習的第三、第二與第一把位中，往後伸展第一指時有把第一指根部與拇指擠在一起的危險：要保持拇指與第一指之間的空間張開。</li>
   </ul>
-  <div class="figure"><span class="tag">譜例</span><div>標第一指、第二指按住記號與 * 號的練習譜。</div></div>
+  
   <div class="pagemark">原書 118　Left Hand</div>
 
-  <div class="figure"><span class="tag">譜例（接續）</span><div>練習 2 的後續樂句，標第一指按住記號（1——）。</div></div>
+  <figure class="score">
+<img src="assets/music/p119_full.png" alt="原書第119頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 119 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例（接續）</b>：練習 2 的後續樂句，標第一指按住記號（1——）。</li><li><b>譜例</b>：西班牙交響曲 Symphonie espagnole, op. 21, 第一樂章 — Lalo（拉羅） 。標指法 0、4 與 (1)(2) 兩種對照。</li><li><b>譜例</b>：標延音記號（fermata）與指法 0、4 的練習譜。</li></ul></figcaption>
+</figure>
 
   <!-- ============================================================ -->
   <h2 class="sec">快速手指<span class="en">FAST FINGERS</span></h2>
@@ -591,14 +579,11 @@
   <p><span class="note-term">抬起一根手指：</span>新的音在手指離開弦的當下奏出。</p>
   <p>因此，手指必須在需要新音<em>之前</em>就開始落下，並且必須<em>在</em>需要新音的當下被抬起。</p>
   <p>在這個出自拉羅的範例中，第二小節顯示：如果抬指動作拖到需要新音的那一刻才做，樂段會變得多麼不均勻。</p>
-  <div class="figure">
-    <span class="tag">譜例</span>
-    <div><span class="src">西班牙交響曲 Symphonie espagnole, op. 21, 第一樂章 — Lalo（拉羅）</span>。標指法 0、4 與 (1)(2) 兩種對照。</div>
-  </div>
+  
   <p>抬指與落指之間時機上的差異，正是為什麼通常最好盡可能晚才移動手指、然後極快地移動它們的原因之一。除了改善清晰度、給演奏者一種多出時間的感覺、以及讓大音量的演奏成為可能之外，在最後一刻快速移動手指，也讓細緻的節奏更容易達成。</p>
   <h4 class="subsub">練習方法<span class="en">Practice method</span></h4>
   <p>有一個簡單的練習技巧，可以把那些「漏掉（drop out）」的音變得均勻：把它們奏得比周圍的音更長、更大聲。<sup>1</sup></p>
-  <div class="figure"><span class="tag">譜例</span><div>標延音記號（fermata）與指法 0、4 的練習譜。</div></div>
+  
   <div class="footnote"><sup>1</sup> 參見〈漏音 Drop-outs〉，第 168 頁。</div>
   <div class="pagemark">原書 119　Left Hand</div>
 
@@ -609,7 +594,10 @@
     <li>就這個練習而言，只用手指來撥弦，從根部關節把它往後拉，沒有任何手部動作。</li>
     <li>速度：慢、中、快。</li>
   </ul>
-  <div class="figure"><span class="tag">譜例</span><div>標 pluck（撥）、上弓（V）記號與指法 1/0、2/0、3/0、4/0、2/1、3/1、4/1、4/2、4/3、3/2。</div></div>
+  <figure class="score">
+<img src="assets/music/p120_full.png" alt="原書第120頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 120 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：標 pluck（撥）、上弓（V）記號與指法 1/0、2/0、3/0、4/0、2/1、3/1、4/1、4/2、4/3、3/2。</li><li><b>譜例</b>：♩=60，sul G，力度 fff，指法 1、2、3、4。</li></ul></figcaption>
+</figure>
   <p>在 G 弦上重複相同的模式。撥 E 弦時手肘更往左擺，撥 G 弦時更往右擺。</p>
   <h4 class="subsub">練習 2<span class="en">Exercise 2　·　Ex. 169</span></h4>
   <p>從高把位抬離到空弦，需要最快的手指動作，以避免手指離弦時聲音中出現「毛邊（fuzz）」。要避免「毛邊」，可以用輕微的撥弦動作來抬指（如同大提琴演奏），但這個練習的重點在於：盡可能快地抬指而<em>不</em>撥弦，然後在較低把位使用相同的抬離速度。</p>
@@ -618,7 +606,7 @@
     <li>在高把位，極快地抬指，使空弦立刻發聲。記住快速抬離的感覺，然後在第一把位使用相同的抬離速度。</li>
     <li>為了讓練習盡可能有效，手指要垂直地抬起，不帶任何往側面的撥動。保持弓持續發聲，不要在每次抬離前奏出輕微的<em>漸弱（diminuendo）</em>。</li>
   </ul>
-  <div class="figure"><span class="tag">譜例</span><div>♩=60，sul G，力度 fff，指法 1、2、3、4。</div></div>
+  
   <p>在每一條弦上演奏相同的序列。</p>
   <div class="pagemark">原書 120　Left Hand</div>
 
@@ -631,7 +619,10 @@
     <li>無論力度或手指移動的速度為何，聲音都應該始終是純淨的，在手指觸弦或離弦時不帶任何「毛邊」。奏 mf 或 ff 時，去聆聽手指落下或抬起時那個「叮（ping）」的聲音。</li>
   </ul>
   <p>關於發音點（soundpoints）的說明，參見第 41 頁。</p>
-  <div class="figure"><span class="tag">譜例</span><div>♩=50。標 pp／發音點 5、mf／發音點 3、ff／發音點 2–1、simile。指法 0、1、4。</div></div>
+  <figure class="score">
+<img src="assets/music/p121_full.png" alt="原書第121頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 121 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：♩=50。標 pp／發音點 5、mf／發音點 3、ff／發音點 2–1、simile。指法 0、1、4。</li><li><b>譜例</b>：四個階段標示： 非常緩慢地落下與抬起 F 、 落下或抬起前稍等一下，然後把手指移動得快一些 、 落下或抬起前等久一點，然後把手指移動得快得多 、 盡可能久地等待，然後在「最後一刻」極快地移動 。</li></ul></figcaption>
+</figure>
   <p>在每一條弦上演奏。</p>
   <h4 class="subsub">練習 2<span class="en">Exercise 2　·　Ex. 171</span></h4>
   <p>用節拍器設在 ♩=60 演奏，以確保只有手指的速度改變，而速度（tempo）不變。</p>
@@ -640,10 +631,7 @@
     <li>一點一點地加快手指移動的速度，使你在落下或抬起之後，等待下一拍的時間越來越久。音的純淨度會逐漸改善。</li>
     <li>最後，用如此快速的手指動作演奏，使手指大部分時間都是靜止的——不是抬起來等著要落下，就是落下後等著要抬起。</li>
   </ol>
-  <div class="figure">
-    <span class="tag">譜例</span>
-    <div>四個階段標示：<span class="src">非常緩慢地落下與抬起 F</span>、<span class="src">落下或抬起前稍等一下，然後把手指移動得快一些</span>、<span class="src">落下或抬起前等久一點，然後把手指移動得快得多</span>、<span class="src">盡可能久地等待，然後在「最後一刻」極快地移動</span>。</div>
-  </div>
+  
   <p>在每一條弦上用下列指法演奏：01, 02, 03, 04；12, 13, 14；23, 24；34。</p>
   <div class="pagemark">原書 121　Left Hand</div>
 
@@ -656,7 +644,10 @@
     <li>使用全弓，使弓速非常快，讓弦盡可能寬地振動。</li>
     <li>在抬起較高的手指之前，先把較低的手指放到弦上。<sup>1</sup></li>
   </ul>
-  <div class="figure"><span class="tag">譜例</span><div>♩=60，標 sempre f（始終 f）、simile，含多種指法。</div></div>
+  <figure class="score">
+<img src="assets/music/p122_full.png" alt="原書第122頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 122 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：♩=60，標 sempre f（始終 f）、simile，含多種指法。</li></ul></figcaption>
+</figure>
   <p>在每一條弦上演奏相同的序列。</p>
   <h4 class="subsub">練習方法<span class="en">Practice method</span></h4>
   <p>用非常慢的速度，把任何中等到快速的樂段（或一次一整首樂曲）奏過一遍，同時非常快速地落下與抬起手指。等到最後一刻才移動每一根手指——把手指保持靜止久到「再多等一瞬間就會讓那個音遲到」的程度；然後極快地抬起或落下。（那些已經預備在弦上的手指，仍應該是「放上去」而非快速「落下」。）</p>
@@ -671,24 +662,30 @@
   <div class="footnote"><sup>1</sup> 參見〈手指預備 Finger preparation〉，第 130 頁。</div>
   <div class="pagemark">原書 122　Left Hand</div>
 
-  <div class="figure"><span class="tag">譜例（接續）</span><div>標 <span class="src">快速跳弓或自然跳弓（Fast spiccato or sautillé）</span>、simile，含多種指法（在 G–D 與 D–A 弦上也演奏）。</div></div>
+  <figure class="score">
+<img src="assets/music/p123_full.png" alt="原書第123頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 123 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例（接續）</b>：標 快速跳弓或自然跳弓（Fast spiccato or sautillé） 、simile，含多種指法（在 G–D 與 D–A 弦上也演奏）。</li><li><b>譜例</b>：標 simile 與多種指法。在每一條弦上演奏。</li><li><b>譜例</b>：標指法 1、2、3。在 G 弦與 A 弦上也演奏。</li></ul></figcaption>
+</figure>
   <h4 class="subsub">簡易變化<span class="en">Easy variation　·　Ex. 174</span></h4>
   <p>從 ♪=92 開始。在 120 重複，再在 144 重複。</p>
-  <div class="figure"><span class="tag">譜例</span><div>標 simile 與多種指法。在每一條弦上演奏。</div></div>
+  
   <h4 class="subsub">困難變化<span class="en">Difficult variation　·　Ex. 175</span></h4>
   <p>把每一對音中較低的音放在 D 弦上。一次只演奏一行，先奏上面那行，再奏下面那行。由於手指要移動的距離非常遠，它必須移動得更快：</p>
-  <div class="figure"><span class="tag">譜例</span><div>標指法 1、2、3。在 G 弦與 A 弦上也演奏。</div></div>
+  
   <div class="pagemark">原書 123　Left Hand</div>
 
   <h4 class="subsub">練習 3<span class="en">Exercise 3　·　Ex. 176</span></h4>
   <p>用非常快的<em>分弓（détaché）</em>演奏，停在一個強烈加重音（accent）的八分音符（quaver）上。無論重音多強，都要用純淨的音色奏出這個八分音符，並讓手指在弓奏出它之前就已完全按穩這個音。每一小節除了從下弓開始之外，也要從上弓開始。</p>
-  <div class="figure"><span class="tag">譜例</span><div>♩=66，標重音記號（&gt;）與指法 1、3。</div></div>
+  <figure class="score">
+<img src="assets/music/p124_full.png" alt="原書第124頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 124 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：♩=66，標重音記號（&gt;）與指法 1、3。</li><li><b>譜例</b>：列出系統化指法：0 1、0 2、0 3、0 4、1 0、1 2、1 3、1 4……2 4、3 0、3 1、3 2、3 4、4 0、4 1、4 2、4 3。</li><li><b>譜例</b>：標 ×音符與指法 1、3。在 E 弦與 D 弦上也演奏。</li></ul></figcaption>
+</figure>
   <h4 class="subsub">指法<span class="en">Fingerings</span></h4>
-  <div class="figure"><span class="tag">譜例</span><div>列出系統化指法：0 1、0 2、0 3、0 4、1 0、1 2、1 3、1 4……2 4、3 0、3 1、3 2、3 4、4 0、4 1、4 2、4 3。</div></div>
+  
   <p>在每一條弦上演奏。</p>
   <h4 class="subsub">困難變化<span class="en">Difficult variation　·　Ex. 177</span></h4>
   <p>把每一對手指中較高的那根手指放到 G 弦上而不奏出它（記譜為 ×音符）。只演奏上面那行，把手指按在 G 弦上，直到它在 A 弦上被需要的那一瞬間。由於手指要移動的距離非常遠，它必須移動得更快：</p>
-  <div class="figure"><span class="tag">譜例</span><div>標 ×音符與指法 1、3。在 E 弦與 D 弦上也演奏。</div></div>
+  
   <h4 class="subsub">節奏<span class="en">Rhythms　·　Ex. 178</span></h4>
   <ul class="bullets">
     <li>精確地演奏這些節奏，做到弓與手指的完美協調。把三十二分音符（demisemiquavers）奏得清楚。</li>
@@ -698,10 +695,10 @@
   <div class="footnote"><sup>1</sup> 參見〈手指預備 Finger preparation〉，第 130 頁。</div>
   <div class="pagemark">原書 124　Left Hand</div>
 
-  <div class="figure">
-    <span class="tag">譜例（接續）</span>
-    <div>標 sfz、simile、弓法記號（⊓ V），以及說明：<span class="src">等到最後一刻才放下第 1 指</span>。</div>
-  </div>
+  <figure class="score">
+<img src="assets/music/p125_full.png" alt="原書第125頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 125 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例（接續）</b>：標 sfz、simile、弓法記號（⊓ V），以及說明： 等到最後一刻才放下第 1 指 。</li></ul></figcaption>
+</figure>
 
   <!-- ============================================================ -->
   <h2 class="sec">第四指<span class="en">FOURTH FINGER</span></h2>
@@ -727,7 +724,10 @@
     <li>完全只靠第四指自己、從根部關節移動它。不要用手部來移動手指。</li>
     <li>要把根部關節張得更開，演奏第三指時稍微多用指尖左側，演奏第四指時稍微多用指尖右側。</li>
   </ul>
-  <div class="figure"><span class="tag">譜例</span><div>第五把位 sul A／第三把位／第一把位，標第三指按住（3——）與相同指法（4、4 4 4……）。</div></div>
+  <figure class="score">
+<img src="assets/music/p126_full.png" alt="原書第126頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 126 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：第五把位 sul A／第三把位／第一把位，標第三指按住（3——）與相同指法（4、4 4 4……）。</li><li><b>譜例</b>：標 左手撥弦（left hand pizz.） f，指法 4、4/0、3。</li></ul></figcaption>
+</figure>
   <h4 class="subsub">練習 2<span class="en">Exercise 2　·　Ex. 180</span></h4>
   <ul class="bullets">
     <li>要把根部關節張得更開，演奏第三指時稍微多用指尖左側，演奏第四指時稍微多用指尖右側。</li>
@@ -735,7 +735,7 @@
     <li>大聲地撥，以盡可能多地鍛鍊手指。</li>
     <li>使用第四指時，保持手、拇指與手腕靜止而放鬆。讓第一指輕放在弦上（以括號中的音表示）。</li>
   </ul>
-  <div class="figure"><span class="tag">譜例</span><div>標 <span class="src">左手撥弦（left hand pizz.）</span> f，指法 4、4/0、3。</div></div>
+  
   <div class="pagemark">原書 126　Left Hand</div>
 
   <h4 class="subsub">練習 3<span class="en">Exercise 3　·　Ex. 181</span></h4>
@@ -745,7 +745,10 @@
     <li>全程把第三指按住。讓第一指輕放在弦上（以括號中的音表示）。</li>
     <li>在 G–D 弦與 D–A 弦上也演奏。</li>
   </ul>
-  <div class="figure"><span class="tag">譜例</span><div>第五把位／第三把位／第一把位，標第三指按住（3——）與指法 4 3 4 3。</div></div>
+  <figure class="score">
+<img src="assets/music/p127_full.png" alt="原書第127頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 127 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：第五把位／第三把位／第一把位，標第三指按住（3——）與指法 4 3 4 3。</li><li><b>譜例</b>：力度 ff，標 simile 與指法 0 4 1 2 3。</li><li><b>譜例</b>：(1)(2) 兩種附點節奏變化。</li></ul></figcaption>
+</figure>
   <h4 class="subsub">練習 4<span class="en">Exercise 4　·　Ex. 182</span></h4>
   <ul class="bullets">
     <li>盡可能久地把第一指與第二指按在弦上。演奏第四指時把第三指按住。</li>
@@ -753,9 +756,9 @@
     <li>在抬起第四指之前，下一根手指必須已經放到下方的弦上。這適用於每小節的第 3、5、7、9、11 音。</li>
     <li>聆聽手指按弦或離弦時的「叮」聲。</li>
   </ul>
-  <div class="figure"><span class="tag">譜例</span><div>力度 ff，標 simile 與指法 0 4 1 2 3。</div></div>
+  
   <h4 class="subsub">節奏變化<span class="en">Rhythm variations</span></h4>
-  <div class="figure"><span class="tag">譜例</span><div>(1)(2) 兩種附點節奏變化。</div></div>
+  
   <p>從第一把位開始，在其他弦上演奏相同的序列。</p>
   <div class="pagemark">原書 127　Left Hand</div>
 
@@ -764,7 +767,10 @@
     <li>全程把第一指按住。</li>
     <li>只要有可能，就把第二指按住。</li>
   </ul>
-  <div class="figure"><span class="tag">譜例</span><div>第七把位 sul D／第四把位／第一把位，標 simile 與指法 1 2 4 3 4 3 4 3 4 2 4。</div></div>
+  <figure class="score">
+<img src="assets/music/p128_full.png" alt="原書第128頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 128 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：第七把位 sul D／第四把位／第一把位，標 simile 與指法 1 2 4 3 4 3 4 3 4 2 4。</li></ul></figcaption>
+</figure>
   <p>在其他弦上，於第七、第四與第一把位演奏相同的序列。</p>
   <div class="pagemark">原書 128　Left Hand</div>
 
@@ -776,10 +782,10 @@
   <p>左手手指必須始終<strong>領先</strong>。如果手指遲到，就會因為拉到一條只按了一半的弦而造成一瞬間的「毛邊」。</p>
   <p>要嘛是手指太晚才找到弦，而弓在手指尚未按穩音時就已開始移動——要嘛是手指太晚才抬離，下一弓在演奏較低的音之前又短暫地碰到了它。這兩個練習則從相反的極端著手，刻意讓手指移動得太早。</p>
   <p>有一個示範完美協調的簡單方法，就是撥弦演奏：放下手指與撥動它之間的時機差異一目了然。在下面的範例中，先撥弦演奏，然後以撥弦時相同的時機用弓演奏。</p>
-  <div class="figure">
-    <span class="tag">譜例</span>
-    <div><span class="src">D 大調小提琴協奏曲 Violin Concerto in D, op. 61, 第一樂章 — Beethoven（貝多芬）</span>。標 (1) 撥弦（pizzicato）、(2) 用弓（arco）。</div>
-  </div>
+  <figure class="score">
+<img src="assets/music/p129_full.png" alt="原書第129頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 129 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：D 大調小提琴協奏曲 Violin Concerto in D, op. 61, 第一樂章 — Beethoven（貝多芬） 。標 (1) 撥弦（pizzicato）、(2) 用弓（arco）。</li><li><b>譜例 範例</b>：（指法模式的第 5、6 小節——見 *）標示： 奏到休止符 、 讓弓留在弦上 、 無聲地放下 、 抬起第二指，讓第一指備妥 、 抬起第三指，讓第一指備妥 。指法 1、2、3。</li><li><b>譜例</b>：0 1、0 2、0 3、0 4、1 2、1 3、1 4……2 3、2 4、3 4、3 4。標 * 號。</li></ul></figcaption>
+</figure>
   <h3 class="sub">手指「領先」<span class="en">Fingers 'leading'</span></h3>
   <h4 class="subsub">練習 1<span class="en">Exercise 1　·　Ex. 184</span></h4>
   <ul class="bullets">
@@ -787,12 +793,9 @@
     <li>在第三拍，無聲地把新的手指放到弦上（記譜為 ×音符）。</li>
     <li>用節拍器 ♩=100 把整個序列奏過一遍，然後逐步加快到 200，或更快。在每一個節拍器速度上，把每一小節重複數次。</li>
   </ul>
-  <div class="figure">
-    <span class="tag">譜例 範例</span>
-    <div>（指法模式的第 5、6 小節——見 *）標示：<span class="src">奏到休止符</span>、<span class="src">讓弓留在弦上</span>、<span class="src">無聲地放下</span>、<span class="src">抬起第二指，讓第一指備妥</span>、<span class="src">抬起第三指，讓第一指備妥</span>。指法 1、2、3。</div>
-  </div>
+  
   <h4 class="subsub">指法模式<span class="en">Fingering pattern</span></h4>
-  <div class="figure"><span class="tag">譜例</span><div>0 1、0 2、0 3、0 4、1 2、1 3、1 4……2 3、2 4、3 4、3 4。標 * 號。</div></div>
+  
   <p>在其他弦上也演奏相同的模式。</p>
   <div class="pagemark">原書 129　Left Hand</div>
 
@@ -802,59 +805,68 @@
     <li>把第一個音按住得越來越久，使第二個音越來越接近換弓的時刻。</li>
     <li>持續到第二個音只比換弓早一丁點，然後以完美的協調只演奏這兩個音。</li>
   </ul>
-  <div class="figure"><span class="tag">譜例</span><div>♩=60，標弓法（⊓ V）的練習譜。</div></div>
+  <figure class="score">
+<img src="assets/music/p130_full.png" alt="原書第130頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 130 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：♩=60，標弓法（⊓ V）的練習譜。</li><li><b>譜例</b>：0 1、0 2、0 3、0 4、1 0、1 2……4 3 等系統化指法。在其他弦上也演奏相同指法。</li><li><b>譜例</b>：《冬》（四季）Winter (The Four Seasons) op. 8 no. 4, 第一樂章 — Vivaldi（韋瓦第） 。標附點節奏與指法 1、2、0。</li><li><b>譜例</b>：42 首練習曲 42 Etudes ou caprices, no. 2 — Kreutzer（克羅采） 。4/4 拍，標 * 號與指法 0、4。</li></ul></figcaption>
+</figure>
   <h4 class="subsub">指法<span class="en">Fingerings</span></h4>
-  <div class="figure"><span class="tag">譜例</span><div>0 1、0 2、0 3、0 4、1 0、1 2……4 3 等系統化指法。在其他弦上也演奏相同指法。</div></div>
+  
   <h4 class="subsub">練習方法<span class="en">Practice method</span></h4>
-  <div class="figure">
-    <span class="tag">譜例</span>
-    <div><span class="src">《冬》（四季）Winter (The Four Seasons) op. 8 no. 4, 第一樂章 — Vivaldi（韋瓦第）</span>。標附點節奏與指法 1、2、0。</div>
-  </div>
+  
   <p>從慢速度開始，把附點奏得盡可能長、把短音奏得盡可能短。逐步加快速度，直到這個附點型可以實際演奏得最快為止，過程中始終感覺手指比弓早一丁點。這是最有效的單一練習方法之一，能立即見效。</p>
 
   <h3 class="sub">手指預備<span class="en">Finger preparation</span></h3>
   <p>「手指預備」是「技術性時機（technical timing）」相對於「音樂性時機（musical timing）」的另一個例子（見第 27 頁的註腳）。要讓任何下行的音演奏得平順而無縫，較低的手指必須在抬起較高的手指之前，就已經備妥在弦上。</p>
-  <div class="figure">
-    <span class="tag">譜例</span>
-    <div><span class="src">42 首練習曲 42 Etudes ou caprices, no. 2 — Kreutzer（克羅采）</span>。4/4 拍，標 * 號與指法 0、4。</div>
-  </div>
+  
   <p>在上面的範例中，雖然演奏第一音與第三音的手指顯然必須在弓移動之前就在弦上，但那是協調性的問題——它們本身並非「已預備」的手指。第四音（第一指 F）才是已預備的手指。無論速度為何，這根手指都在演奏前一個音（第二指 G）時就放到弦上。一開始，這根已預備的第一指不用力按，只把音按到一半。然後，當第二指抬起時，第一指才把 F 完全按穩。</p>
   <p>第七音（第三指 D）是已預備的手指，並在弓抵達 A 弦之前的一瞬間就把弦完全按穩。第九音（第二指 C）則與第四音（F）類似。</p>
   <div class="pagemark">原書 130　Left Hand</div>
 
   <h4 class="subsub">練習 1<span class="en">Exercise 1　·　Ex. 186</span></h4>
   <p>把已預備的手指放得非常早、像切分音（syncopation）一樣，以誇大手指預備，如範例中的 ×音符所示。<em>不要把已預備的手指按下去</em>——而是把它們輕輕擱在弦上，然後<em>在抬起前一根手指的同時把弦按住</em>。換句話說，「按住新音」與「結束舊音」是<em>同一個動作的兩半</em>，而不是兩個分開的動作。</p>
-  <div class="figure"><span class="tag">譜例 範例</span><div>標 ×音符、simile 與指法 2 1、3 1、4 1、3 2、4 3 等。</div></div>
+  <figure class="score">
+<img src="assets/music/p131_full.png" alt="原書第131頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 131 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例 範例</b>：標 ×音符、simile 與指法 2 1、3 1、4 1、3 2、4 3 等。</li></ul></figcaption>
+</figure>
   <div class="pagemark">原書 131　Left Hand</div>
 
   <h4 class="subsub">練習 2<span class="en">Exercise 2　·　Ex. 187</span></h4>
   <p>這裡每一組的第三音落在較低的弦上。把它放得早一些、像切分音一樣，如範例所示：</p>
-  <div class="figure"><span class="tag">譜例 範例</span><div>標 simile 與指法 1、2、4。</div></div>
+  <figure class="score">
+<img src="assets/music/p132_full.png" alt="原書第132頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 132 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例 範例</b>：標 simile 與指法 1、2、4。</li><li><b>譜例</b>：第五把位／第四把位，指法 2。</li><li><b>譜例</b>：標 simile 與指法 1。</li></ul></figcaption>
+</figure>
   <h4 class="subsub">其他把位<span class="en">Other positions</span></h4>
   <p>在 D 弦與 G 弦上從第五把位開始，在 E 弦與 A 弦上從第四把位開始：</p>
-  <div class="figure"><span class="tag">譜例</span><div>第五把位／第四把位，指法 2。</div></div>
+  
   <h4 class="subsub">練習 3<span class="en">Exercise 3　·　Ex. 188</span></h4>
   <p>這裡是第四音被預備。把它放得早一些、像切分音一樣。</p>
-  <div class="figure"><span class="tag">譜例</span><div>標 simile 與指法 1。</div></div>
+  
   <div class="pagemark">原書 132　Left Hand</div>
 
   <h4 class="subsub">其他把位<span class="en">Other positions</span></h4>
   <p>在 G 弦與 D 弦上從第五把位開始，在 A 弦與 E 弦上從第四把位開始：</p>
-  <div class="figure"><span class="tag">譜例</span><div>第五把位／第四把位，指法 1。</div></div>
+  <figure class="score">
+<img src="assets/music/p133_full.png" alt="原書第133頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 133 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：第五把位／第四把位，指法 1。</li><li><b>譜例 範例</b>：標 ×音符、simile 與指法 4、3。</li><li><b>譜例</b>：第五把位／第四把位，指法 4。</li></ul></figcaption>
+</figure>
   <h4 class="subsub">練習 4<span class="en">Exercise 4　·　Ex. 189</span></h4>
   <p>這裡每一組的第二音與第四音是已預備的手指。把它們放得早一些、像切分音一樣，如範例所示。</p>
-  <div class="figure"><span class="tag">譜例 範例</span><div>標 ×音符、simile 與指法 4、3。</div></div>
+  
   <h4 class="subsub">其他把位<span class="en">Other positions</span></h4>
   <p>在 D 弦與 G 弦上從第五把位開始，在 E 弦與 A 弦上從第四把位開始：</p>
-  <div class="figure"><span class="tag">譜例</span><div>第五把位／第四把位，指法 4。</div></div>
+  
   <div class="pagemark">原書 133　Left Hand</div>
 
   <h4 class="subsub">練習 5<span class="en">Exercise 5　·　Ex. 190</span></h4>
   <p>把每一組的第二音與第四音預備好，將它們放得早一些、像切分音一樣。</p>
-  <div class="figure"><span class="tag">譜例</span><div>標 simile 與指法 4。</div></div>
+  <figure class="score">
+<img src="assets/music/p134_full.png" alt="原書第134頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 134 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：標 simile 與指法 4。</li><li><b>譜例</b>：第五把位／第四把位，指法 4。</li><li><b>譜例</b>：♩=60、63、66、69，標指法 1 2／2 3／3 4。</li></ul></figcaption>
+</figure>
   <h4 class="subsub">其他把位<span class="en">Other positions</span></h4>
   <p>在 G 弦與 D 弦上從第五把位開始，在 A 弦與 E 弦上從第四把位開始：</p>
-  <div class="figure"><span class="tag">譜例</span><div>第五把位／第四把位，指法 4。</div></div>
+  
 
   <!-- ============================================================ -->
   <h2 class="sec">顫音<span class="en">TRILLS</span></h2>
@@ -864,12 +876,15 @@
   </div>
   <p>顫音中那根較低的、按住的手指，不能按得太用力，否則較高的手指就無法自由地移動。</p>
   <h4 class="subsub">練習 1<span class="en">Exercise 1　·　Ex. 191</span></h4>
-  <div class="figure"><span class="tag">譜例</span><div>♩=60、63、66、69，標指法 1 2／2 3／3 4。</div></div>
+  
   <p>隨著音的速度加快，泛音仍應清楚地發聲。</p>
   <div class="pagemark">原書 134　Left Hand</div>
 
   <h4 class="subsub">指法<span class="en">Fingerings</span></h4>
-  <div class="figure"><span class="tag">譜例</span><div>指法 1 2、1 3、1 4、2 3、2 4、3 4。</div></div>
+  <figure class="score">
+<img src="assets/music/p135_full.png" alt="原書第135頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 135 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：指法 1 2、1 3、1 4、2 3、2 4、3 4。</li><li><b>譜例</b>：♩=120，標 把第一指抬高 、simile 與指法 1、2。</li><li><b>譜例</b>：短指法模式 ：1 2、1 3、1 4、2 3、2 4、3 4。 長指法模式 ：更長的組合序列。</li></ul></figcaption>
+</figure>
   <ul class="bullets">
     <li>在泛音期間，徹底放鬆手腕、手、手指與拇指。演奏較高的手指時，保持那份放鬆的感覺。</li>
     <li>演奏較高的手指時，讓奏泛音的那根手指仍輕觸在弦上。</li>
@@ -878,21 +893,24 @@
   <p>在其他弦上也演奏相同的模式。</p>
   <h4 class="subsub">練習 2<span class="en">Exercise 2　·　Ex. 192</span></h4>
   <p>當你落下較高的手指時，把較低的手指抬得相當高，讓這兩根手指做反向運動。</p>
-  <div class="figure"><span class="tag">譜例</span><div>♩=120，標 <span class="src">把第一指抬高</span>、simile 與指法 1、2。</div></div>
+  
   <h4 class="subsub">指法<span class="en">Fingerings</span></h4>
-  <div class="figure"><span class="tag">譜例</span><div><span class="src">短指法模式</span>：1 2、1 3、1 4、2 3、2 4、3 4。<span class="src">長指法模式</span>：更長的組合序列。</div></div>
+  
   <p>在其他弦上演奏相同的模式。</p>
   <div class="pagemark">原書 135　Left Hand</div>
 
   <h4 class="subsub">練習 3<span class="en">Exercise 3　·　Ex. 193</span></h4>
-  <div class="figure"><span class="tag">譜例</span><div>泛音顫音練習譜，指法 1 2、2 3、3 4 等。</div></div>
+  <figure class="score">
+<img src="assets/music/p136_full.png" alt="原書第136頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 136 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：泛音顫音練習譜，指法 1 2、2 3、3 4 等。</li><li><b>譜例</b>：標 (tr) 顫音記號與高八度（8va）的泛音結果。</li><li><b>譜例</b>：力度 f，標 simile、弓法記號與 (1)–(6) 逐步增加顫音音數。</li></ul></figcaption>
+</figure>
   <p>當顫音夠快時，這個練習中每一對泛音裡較高的那個，會比正常高出一個五度（因為較低的手指仍持續觸弦），於是顫音聽起來會如下：</p>
-  <div class="figure"><span class="tag">譜例</span><div>標 (tr) 顫音記號與高八度（8va）的泛音結果。</div></div>
+  
   <p>如果顫音聽起來不清楚，試著靠近琴橋演奏，或用更快的弓速，並確認較低的手指（它必須留在弦上）既不太重也不太輕。</p>
   <p>像這樣用泛音顫音，能讓手指獲得一種格外輕鬆與輕盈的感覺。以最少的力氣追求最快的顫音。手與手指應該幾乎完全沒有任何用力的感覺。然後在一般的顫音中找到同樣的毫不費力感。</p>
   <h3 class="sub">逐音建立顫音<span class="en">Building trills note by note　·　Ex. 194</span></h3>
   <p>在演奏每一個顫音之前，先靠近琴橋持續奏出長的 f 弓，讓弦盡可能寬地振動。不加揉弦（vibrato）演奏。</p>
-  <div class="figure"><span class="tag">譜例</span><div>力度 f，標 simile、弓法記號與 (1)–(6) 逐步增加顫音音數。</div></div>
+  
   <ol>
     <li>把顫音手指抬到比正常高度略高一點——非常快速地落到弦上——快速抬離、回到那個比正常略高的位置，然後放鬆。從根部關節移動手指。<em>聆聽手指擊弦或離弦時的「叮」聲。</em>使用手指時保持聲音持續。</li>
     <li>把手指抬到比正常高度略高一點——快速落到弦上——只<em>稍微</em>抬起——再次快速落下——快速抬回起始位置。</li>
@@ -905,19 +923,22 @@
   <p>這個練習牽涉三個時機問題：(1) 手指落下的速度有多快，(2) 它在弦上停留多久，以及 (3) 它被抬起的速度有多快。</p>
   <p>尤其在雙音中，留在弦上的那些手指不要過度按壓。</p>
   <h4 class="subsub">指法<span class="en">Fingerings</span></h4>
-  <div class="figure"><span class="tag">譜例</span><div><span class="src">短指法模式</span>、<span class="src">長指法模式</span>與<span class="src">雙音（Double stops）</span>三組，含指法 0 1……3 4 等。</div></div>
+  <figure class="score">
+<img src="assets/music/p137_full.png" alt="原書第137頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 137 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：短指法模式 、 長指法模式 與 雙音（Double stops） 三組，含指法 0 1……3 4 等。</li><li><b>譜例</b>：g 小調小提琴協奏曲 Violin Concerto in G minor, op. 26, 第一樂章 — Bruch（布魯赫） 。標 tr 顫音記號與指法 1、2，標 (etc.)。</li></ul></figcaption>
+</figure>
   <p>在其他弦上演奏相同的模式。</p>
   <h3 class="sub">方向<span class="en">Direction　·　Ex. 195</span></h3>
   <p>顫音手指的動作是「向上—向上—向上—向上」，而不是「向下—向下—向下—向下」，也不是「向下—向上—向下—向上」。如果把海飛茲（Heifetz）演奏布魯赫協奏曲的錄音<sup>1</sup>（或許多其他演奏家的錄音）以半速播放，第一樂章的顫音樂段聽起來並不均勻，而實際上大約聽起來像這樣：</p>
-  <div class="figure">
-    <span class="tag">譜例</span>
-    <div><span class="src">g 小調小提琴協奏曲 Violin Concerto in G minor, op. 26, 第一樂章 — Bruch（布魯赫）</span>。標 tr 顫音記號與指法 1、2，標 (etc.)。</div>
-  </div>
+  
   <div class="footnote"><sup>1</sup> 倫敦新交響樂團（New Symphony Orchestra of London），指揮 Malcolm Sargent（馬爾科姆‧薩堅特），RCA, LSB 4061。</div>
   <div class="pagemark">原書 137　Left Hand</div>
 
   <p>下面這個簡單的練習，既可用來建立顫音的技巧，也可作為特定顫音樂段的練習方法。快速地抬起顫音手指，彷彿弦非常燙一般。</p>
-  <div class="figure"><span class="tag">譜例</span><div>顫音練習譜，標指法 1。</div></div>
+  <figure class="score">
+<img src="assets/music/p138_full.png" alt="原書第138頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 138 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：顫音練習譜，標指法 1。</li><li><b>譜例</b>：♩=60–80，涵蓋兩指所有組合的節奏練習譜。</li></ul></figcaption>
+</figure>
   <h4 class="subsub">指法<span class="en">Fingerings</span></h4>
   <p>使用與練習 194 相同的模式，在每一條弦或每一對弦上演奏。</p>
   <h3 class="sub">節奏練習<span class="en">Rhythm exercise　·　Ex. 196</span></h3>
@@ -928,7 +949,7 @@
     <li>大聲地演奏，以盡可能多地鍛鍊手指。</li>
     <li>從根部關節移動手指，不要連整隻手也從手腕移動。如果這一點無法完全做到，就把不用的手指按在另一條弦上，以取得「手指移動而手不動」的感覺。</li>
   </ul>
-  <div class="figure"><span class="tag">譜例</span><div>♩=60–80，涵蓋兩指所有組合的節奏練習譜。</div></div>
+  
   <h4 class="subsub">指法<span class="en">Fingerings</span></h4>
   <p>使用與練習 194 相同的模式，在每一條弦或每一對弦上演奏。</p>
   <div class="pagemark">原書 138　Left Hand</div>
@@ -940,18 +961,21 @@
   </div>
   <p><span class="note-term">上行：</span>在演奏小節開頭的四分音符（crotchet）時，把其他手指依其「全音—半音」的型態預備在弦的上方。把這些手指當作一個動作一起落下。雖然非常快，每個音仍應清楚。</p>
   <p><span class="note-term">下行：</span>把下方的音準確地預備在弦上，然後以一個動作把整組手指「傾離（tilt）」弦面。</p>
-  <div class="figure"><span class="tag">譜例</span><div>♩=60，標 simile 與 ×音符（預備手指）。</div></div>
+  <figure class="score">
+<img src="assets/music/p139_full.png" alt="原書第139頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 139 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：♩=60，標 simile 與 ×音符（預備手指）。</li><li><b>譜例</b>：標 simile 的接續練習譜。</li></ul></figcaption>
+</figure>
   <p>接著繼續演奏與先前相同的型態，但這次不停在第一個音上。在弓開始移動後的一瞬間落下或抬起手指，把它們「傾上」或「傾離」弦面。</p>
-  <div class="figure"><span class="tag">譜例</span><div>標 simile 的接續練習譜。</div></div>
+  
   <p>在每一條弦上演奏整個練習。使用多種調號以涵蓋不同的「全音—半音」可能性。</p>
   <div class="pagemark">原書 139　Left Hand</div>
 
   <h4 class="subsub">練習方法<span class="en">Practice method</span></h4>
   <p>依下列方式練習快速的跑句（runs），把手指當作一個動作一起落下：</p>
-  <div class="figure">
-    <span class="tag">譜例</span>
-    <div><span class="src">g 小調小提琴協奏曲 Violin Concerto in G minor, op. 26, 第一樂章 — Bruch（布魯赫）</span>。標指法 0、1、4。</div>
-  </div>
+  <figure class="score">
+<img src="assets/music/p140_full.png" alt="原書第140頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 140 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：g 小調小提琴協奏曲 Violin Concerto in G minor, op. 26, 第一樂章 — Bruch（布魯赫） 。標指法 0、1、4。</li><li><b>譜例</b>：(1)–(6) 各組，指法 1 2、1 3、1 4、2 3、2 4、3 4。</li></ul></figcaption>
+</figure>
   <p>以相同方式練習下行的跑句。</p>
 
   <!-- ============================================================ -->
@@ -968,40 +992,49 @@
   </ul>
   <h4 class="subsub">練習 1<span class="en">Exercise 1　·　Ex. 198</span></h4>
   <p><span class="note-term">上行：</span>讓兩根手指中較低的那根輕放在弦上，在放下較高的手指時不要把它抬離。例如，在第一小節中不要抬起第一指。</p>
-  <div class="figure"><span class="tag">譜例</span><div>(1)–(6) 各組，指法 1 2、1 3、1 4、2 3、2 4、3 4。</div></div>
+  
   <div class="footnote"><sup>1</sup> 參見〈在根部關節處加寬 Widening at the base joints〉，第 93 頁。</div>
   <div class="pagemark">原書 140　Left Hand</div>
 
   <h4 class="subsub">下行<span class="en">Descending</span></h4>
   <p>把每一小節的第二音與第四音放到弦上，然後再抬起第一音與第三音。<sup>1</sup></p>
-  <div class="figure"><span class="tag">譜例</span><div>(1)–(6) 各組，指法 4 3、4 2、4 1、3 2、3 1、2 1。</div></div>
+  <figure class="score">
+<img src="assets/music/p141_full.png" alt="原書第141頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 141 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：(1)–(6) 各組，指法 4 3、4 2、4 1、3 2、3 1、2 1。</li><li><b>譜例</b>：標 sul D／sul A／sul E，指法 1 2。</li><li><b>譜例</b>：sul D，標 simile 與指法 1 2。</li></ul></figcaption>
+</figure>
   <h4 class="subsub">其他把位<span class="en">Other positions</span></h4>
   <p>在其他弦上以各種八度演奏相同的音：</p>
-  <div class="figure"><span class="tag">譜例</span><div>標 sul D／sul A／sul E，指法 1 2。</div></div>
+  
   <h4 class="subsub">練習 2<span class="en">Exercise 2　·　Ex. 199</span></h4>
   <ul class="bullets">
     <li><span class="note-term">上行：</span>全程把兩根手指中較低的那根按在弦上。</li>
     <li><span class="note-term">下行：</span>在較低的手指穩穩按到弦上之前，不要抬起較高的手指。</li>
   </ul>
-  <div class="figure"><span class="tag">譜例</span><div>sul D，標 simile 與指法 1 2。</div></div>
+  
   <div class="footnote"><sup>1</sup> 參見〈手指預備 Finger preparation〉，第 130 頁。</div>
   <div class="pagemark">原書 141　Left Hand</div>
 
   <p>以相同方式繼續，把每一小節連弓並至少重複兩次：</p>
-  <div class="figure"><span class="tag">譜例</span><div>標 <span class="src">繼續往上 D 弦（Continue up the D string）</span>、etc. 與指法 1 3、1 4、2 3、2 4、3 4。</div></div>
+  <figure class="score">
+<img src="assets/music/p142_full.png" alt="原書第142頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 142 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：標 繼續往上 D 弦（Continue up the D string） 、etc. 與指法 1 3、1 4、2 3、2 4、3 4。</li><li><b>譜例</b>：一連串升、降記號調號。</li><li><b>譜例</b>：sul D，含複雜的多指組合指法。</li></ul></figcaption>
+</figure>
   <p>使用下列調號演奏這個練習：</p>
-  <div class="figure"><span class="tag">譜例</span><div>一連串升、降記號調號。</div></div>
+  
   <p>從第一把位開始，在其他弦上演奏相同的模式。</p>
   <h4 class="subsub">練習 3<span class="en">Exercise 3　·　Ex. 200</span></h4>
   <ul class="bullets">
     <li><span class="note-term">上行：</span>全程把兩根手指中較低的那根按在弦上。</li>
     <li><span class="note-term">下行：</span>在較低的手指穩穩按到弦上之前，不要抬起較高的手指。</li>
   </ul>
-  <div class="figure"><span class="tag">譜例</span><div>sul D，含複雜的多指組合指法。</div></div>
+  
   <div class="pagemark">原書 142　Left Hand</div>
 
   <p>使用下列調號演奏這個練習：</p>
-  <div class="figure"><span class="tag">譜例</span><div>一連串升、降記號調號。</div></div>
+  <figure class="score">
+<img src="assets/music/p143_full.png" alt="原書第143頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 143 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：一連串升、降記號調號。</li><li><b>譜例</b>：sul D，指法 1 4。</li><li><b>譜例</b>：一連串升、降記號調號。</li><li><b>譜例</b>：G 大調奏鳴曲 Sonata in G, op. 78, 第一樂章 — Brahms（布拉姆斯） 。6/8 拍，標力度 f 與第四指、第一指伸展記號。</li></ul></figcaption>
+</figure>
   <p>從第一把位開始，在其他弦上演奏相同的模式。</p>
   <h4 class="subsub">練習 4<span class="en">Exercise 4　·　Ex. 201</span></h4>
   <ul class="bullets">
@@ -1009,26 +1042,26 @@
     <li><span class="note-term">下行：</span>把手的位置平衡地擱在第四指上，並用第一指往後搆。在第一指穩穩按到弦上之前，不要抬起第四指。</li>
     <li>分弓與連弓都演奏。</li>
   </ul>
-  <div class="figure"><span class="tag">譜例</span><div>sul D，指法 1 4。</div></div>
+  
   <p>使用下列調號演奏這個練習：</p>
-  <div class="figure"><span class="tag">譜例</span><div>一連串升、降記號調號。</div></div>
+  
   <p>從第一把位開始，在其他弦上演奏相同的序列。</p>
   <h4 class="subsub">練習方法<span class="en">Practice method</span></h4>
   <p>藉由也練習伸展到周圍的音，來學會如何「丈量」一個伸展：</p>
-  <div class="figure">
-    <span class="tag">譜例</span>
-    <div><span class="src">G 大調奏鳴曲 Sonata in G, op. 78, 第一樂章 — Brahms（布拉姆斯）</span>。6/8 拍，標力度 f 與第四指、第一指伸展記號。</div>
-  </div>
+  
   <div class="pagemark">原書 143　Left Hand</div>
 
   <h3 class="sub">收縮<span class="en">Contractions</span></h3>
   <h4 class="subsub">練習 1<span class="en">Exercise 1　·　Ex. 202</span></h4>
-  <div class="figure"><span class="tag">譜例</span><div>♩=60，sul A，說明：<span class="src">全程把第一指按住</span>，指法 1 1 3 1 4 2 3 1 3 2 3 4 4 1 4 2 4。</div></div>
+  <figure class="score">
+<img src="assets/music/p144_full.png" alt="原書第144頁譜例" loading="lazy">
+<figcaption><span class="scap-h">原書第 144 頁 · 實際譜例／圖示</span><ul class="scap"><li><b>譜例</b>：♩=60，sul A，說明： 全程把第一指按住 ，指法 1 1 3 1 4 2 3 1 3 2 3 4 4 1 4 2 4。</li><li><b>譜例</b>：指法 1 4 1 4、2 4 2 4、4 1 4 1、3 1 3 1 等。</li><li><b>譜例</b>：標 sul D／sul A／sul E 與高八度（8va），指法 1 4 1 4。</li></ul></figcaption>
+</figure>
   <p>在其他弦上以相同的把位演奏這個練習。</p>
   <h4 class="subsub">練習 2<span class="en">Exercise 2　·　Ex. 203</span></h4>
-  <div class="figure"><span class="tag">譜例</span><div>指法 1 4 1 4、2 4 2 4、4 1 4 1、3 1 3 1 等。</div></div>
+  
   <h4 class="subsub">其他把位<span class="en">Other positions</span></h4>
-  <div class="figure"><span class="tag">譜例</span><div>標 sul D／sul A／sul E 與高八度（8va），指法 1 4 1 4。</div></div>
+  
   <p>在其他弦上以相同的把位演奏這個練習。</p>
   <div class="pagemark">原書 144　Left Hand</div>
 
