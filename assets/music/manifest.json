@@ -1,260 +1,206 @@
 {
-"102": {
-"file": "assets/music/p102_full.png",
-"n": 3,
-"w": 1180,
-"h": 750
-},
-"103": {
-"file": "assets/music/p103_full.png",
-"n": 2,
-"w": 1180,
-"h": 170
-},
-"104": {
-"file": "assets/music/p104_full.png",
-"n": 6,
-"w": 1180,
-"h": 501
-},
-"105": {
-"file": "assets/music/p105_full.png",
-"n": 2,
-"w": 1180,
-"h": 512
-},
-"106": {
-"file": "assets/music/p106_full.png",
-"n": 1,
-"w": 1025,
-"h": 330
-},
-"107": {
-"file": "assets/music/p107_full.png",
-"n": 3,
-"w": 1180,
-"h": 367
-},
-"108": {
-"file": "assets/music/p108_full.png",
-"n": 7,
-"w": 1180,
-"h": 495
-},
-"109": {
-"file": "assets/music/p109_full.png",
-"n": 3,
-"w": 1180,
-"h": 1226
-},
-"110": {
-"file": "assets/music/p110_full.png",
-"n": 8,
-"w": 1180,
-"h": 1117
-},
-"111": {
-"file": "assets/music/p111_full.png",
-"n": 10,
-"w": 1180,
-"h": 979
-},
-"112": {
-"file": "assets/music/p112_full.png",
-"n": 12,
-"w": 1180,
-"h": 1169
-},
-"113": {
-"file": "assets/music/p113_full.png",
-"n": 7,
-"w": 1180,
-"h": 632
-},
-"114": {
-"file": "assets/music/p114_full.png",
-"n": 2,
-"w": 1180,
-"h": 986
-},
-"115": {
-"file": "assets/music/p115_full.png",
-"n": 8,
-"w": 1180,
-"h": 1091
-},
-"116": {
-"file": "assets/music/p116_full.png",
-"n": 6,
-"w": 1180,
-"h": 798
-},
-"117": {
-"file": "assets/music/p117_full.png",
-"n": 7,
-"w": 1180,
-"h": 1350
-},
-"118": {
-"file": "assets/music/p118_full.png",
-"n": 4,
-"w": 1180,
-"h": 1018
-},
-"119": {
-"file": "assets/music/p119_full.png",
-"n": 4,
-"w": 1180,
-"h": 540
-},
-"120": {
-"file": "assets/music/p120_full.png",
-"n": 4,
-"w": 1180,
-"h": 559
-},
-"121": {
-"file": "assets/music/p121_full.png",
-"n": 3,
-"w": 1180,
-"h": 769
-},
-"122": {
-"file": "assets/music/p122_full.png",
-"n": 2,
-"w": 1180,
-"h": 522
-},
-"123": {
-"file": "assets/music/p123_full.png",
-"n": 4,
-"w": 1180,
-"h": 1002
-},
-"124": {
-"file": "assets/music/p124_full.png",
-"n": 3,
-"w": 1180,
-"h": 457
-},
-"125": {
-"file": "assets/music/p125_full.png",
-"n": 2,
-"w": 1180,
-"h": 822
-},
-"126": {
-"file": "assets/music/p126_full.png",
-"n": 2,
-"w": 1180,
-"h": 1085
-},
-"127": {
-"file": "assets/music/p127_full.png",
-"n": 4,
-"w": 1180,
-"h": 904
-},
-"128": {
-"file": "assets/music/p128_full.png",
-"n": 6,
-"w": 1180,
-"h": 1101
-},
-"129": {
-"file": "assets/music/p129_full.png",
-"n": 3,
-"w": 1180,
-"h": 457
-},
-"130": {
-"file": "assets/music/p130_full.png",
-"n": 3,
-"w": 1180,
-"h": 779
-},
-"131": {
-"file": "assets/music/p131_full.png",
-"n": 2,
-"w": 1180,
-"h": 1510
-},
-"132": {
-"file": "assets/music/p132_full.png",
-"n": 6,
-"w": 1180,
-"h": 1317
-},
-"133": {
-"file": "assets/music/p133_full.png",
-"n": 6,
-"w": 1180,
-"h": 842
-},
-"134": {
-"file": "assets/music/p134_full.png",
-"n": 3,
-"w": 1180,
-"h": 923
-},
-"135": {
-"file": "assets/music/p135_full.png",
-"n": 3,
-"w": 1180,
-"h": 767
-},
-"136": {
-"file": "assets/music/p136_full.png",
-"n": 4,
-"w": 1180,
-"h": 722
-},
-"137": {
-"file": "assets/music/p137_full.png",
-"n": 3,
-"w": 1180,
-"h": 1067
-},
-"138": {
-"file": "assets/music/p138_full.png",
-"n": 7,
-"w": 1180,
-"h": 946
-},
-"139": {
-"file": "assets/music/p139_full.png",
-"n": 2,
-"w": 1180,
-"h": 1075
-},
-"140": {
-"file": "assets/music/p140_full.png",
-"n": 3,
-"w": 1180,
-"h": 768
-},
-"141": {
-"file": "assets/music/p141_full.png",
-"n": 4,
-"w": 1180,
-"h": 1070
-},
-"142": {
-"file": "assets/music/p142_full.png",
-"n": 7,
-"w": 1180,
-"h": 1152
-},
-"143": {
-"file": "assets/music/p143_full.png",
-"n": 5,
-"w": 1180,
-"h": 1212
-},
-"144": {
-"file": "assets/music/p144_full.png",
-"n": 5,
-"w": 1180,
-"h": 1451
-}
+"102": [
+"assets/music/p102_1.png",
+"assets/music/p102_2.png"
+],
+"103": [
+"assets/music/p103_1.png",
+"assets/music/p103_2.png"
+],
+"104": [
+"assets/music/p104_1.png",
+"assets/music/p104_2.png",
+"assets/music/p104_3.png",
+"assets/music/p104_4.png"
+],
+"105": [
+"assets/music/p105_1.png",
+"assets/music/p105_2.png"
+],
+"106": [
+"assets/music/p106_1.png"
+],
+"107": [
+"assets/music/p107_1.png",
+"assets/music/p107_2.png",
+"assets/music/p107_3.png"
+],
+"108": [
+"assets/music/p108_1.png",
+"assets/music/p108_2.png",
+"assets/music/p108_3.png",
+"assets/music/p108_4.png"
+],
+"109": [
+"assets/music/p109_1.png",
+"assets/music/p109_2.png"
+],
+"110": [
+"assets/music/p110_1.png",
+"assets/music/p110_2.png",
+"assets/music/p110_3.png",
+"assets/music/p110_4.png",
+"assets/music/p110_5.png",
+"assets/music/p110_6.png",
+"assets/music/p110_7.png",
+"assets/music/p110_8.png"
+],
+"111": [
+"assets/music/p111_1.png",
+"assets/music/p111_2.png",
+"assets/music/p111_3.png",
+"assets/music/p111_4.png",
+"assets/music/p111_5.png",
+"assets/music/p111_6.png"
+],
+"112": [
+"assets/music/p112_1.png",
+"assets/music/p112_2.png",
+"assets/music/p112_3.png",
+"assets/music/p112_4.png",
+"assets/music/p112_5.png",
+"assets/music/p112_6.png",
+"assets/music/p112_7.png",
+"assets/music/p112_8.png",
+"assets/music/p112_9.png",
+"assets/music/p112_10.png",
+"assets/music/p112_11.png"
+],
+"113": [
+"assets/music/p113_1.png"
+],
+"114": [
+"assets/music/p114_1.png"
+],
+"115": [
+"assets/music/p115_1.png",
+"assets/music/p115_2.png",
+"assets/music/p115_3.png",
+"assets/music/p115_4.png"
+],
+"116": [
+"assets/music/p116_1.png",
+"assets/music/p116_2.png",
+"assets/music/p116_3.png"
+],
+"117": [
+"assets/music/p117_1.png",
+"assets/music/p117_2.png",
+"assets/music/p117_3.png"
+],
+"118": [
+"assets/music/p118_1.png",
+"assets/music/p118_2.png"
+],
+"119": [
+"assets/music/p119_1.png",
+"assets/music/p119_2.png",
+"assets/music/p119_3.png"
+],
+"120": [
+"assets/music/p120_1.png",
+"assets/music/p120_2.png",
+"assets/music/p120_3.png",
+"assets/music/p120_4.png"
+],
+"121": [
+"assets/music/p121_1.png",
+"assets/music/p121_2.png",
+"assets/music/p121_3.png"
+],
+"122": [
+"assets/music/p122_1.png"
+],
+"123": [
+"assets/music/p123_1.png",
+"assets/music/p123_2.png",
+"assets/music/p123_3.png"
+],
+"124": [
+"assets/music/p124_1.png"
+],
+"125": [
+"assets/music/p125_1.png",
+"assets/music/p125_2.png"
+],
+"126": [
+"assets/music/p126_1.png"
+],
+"127": [
+"assets/music/p127_1.png",
+"assets/music/p127_2.png",
+"assets/music/p127_3.png"
+],
+"128": [
+"assets/music/p128_1.png"
+],
+"129": [
+"assets/music/p129_1.png",
+"assets/music/p129_2.png"
+],
+"130": [
+"assets/music/p130_1.png",
+"assets/music/p130_2.png",
+"assets/music/p130_3.png"
+],
+"131": [
+"assets/music/p131_1.png"
+],
+"132": [
+"assets/music/p132_1.png",
+"assets/music/p132_2.png"
+],
+"133": [
+"assets/music/p133_1.png",
+"assets/music/p133_2.png",
+"assets/music/p133_3.png",
+"assets/music/p133_4.png",
+"assets/music/p133_5.png"
+],
+"134": [
+"assets/music/p134_1.png",
+"assets/music/p134_2.png",
+"assets/music/p134_3.png"
+],
+"135": [
+"assets/music/p135_1.png",
+"assets/music/p135_2.png"
+],
+"136": [
+"assets/music/p136_1.png",
+"assets/music/p136_2.png"
+],
+"137": [
+"assets/music/p137_1.png"
+],
+"138": [
+"assets/music/p138_1.png",
+"assets/music/p138_2.png"
+],
+"139": [
+"assets/music/p139_1.png"
+],
+"140": [
+"assets/music/p140_1.png",
+"assets/music/p140_2.png",
+"assets/music/p140_3.png"
+],
+"141": [
+"assets/music/p141_1.png",
+"assets/music/p141_2.png"
+],
+"142": [
+"assets/music/p142_1.png",
+"assets/music/p142_2.png"
+],
+"143": [
+"assets/music/p143_1.png",
+"assets/music/p143_2.png"
+],
+"144": [
+"assets/music/p144_1.png",
+"assets/music/p144_2.png",
+"assets/music/p144_3.png",
+"assets/music/p144_4.png"
+]
 }
